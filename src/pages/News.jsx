@@ -14,7 +14,7 @@ console.log(news);
 
   useEffect(() => {
     dispatch(getData())
-  }, [])
+  }, [dispatch])
   
 
 
