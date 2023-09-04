@@ -1,29 +1,45 @@
-# Redux Toolkit Ornegi
+# News App Redux-React
 
-## `Kurulum`
+<h3>Visit: https://news-app-redux-react.netlify.app/</h3>
 
-```
-npm install veya yarn
-```
+<img alt="alt_text" src="./news.gif"/>
 
-## `Kullanilan Kutuphaneler`
+## Project Description
 
-- `@reduxjs/toolkit`
-- `react-redux`
-- `axios`
-- `react-router-dom`
-- `@mui/material-ui`
-- `@emotion/react`
-- `@emotion/styled`
+This is a React-based web application for browsing and exploring news articles. Users can log in with their email and password, view news articles, and log out. The app also features responsive design and dark mode for a personalized experience.
 
-## `Kullanilacak API`:
+## Features
 
-- https://newsapi.org/
-  (Get Key butonuna tiklanarak key alinabilir)
+### Authentication:
 
-- URL:
-  const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
+- Users can log in using their email and password.
+- Log out functionality is available.
 
-## `Kullanilacak Araclar`
+### Dark Mode:
 
-- `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
+- Users can toggle between light and dark modes for a personalized viewing experience.
+
+### News Browser:
+
+- The app fetches news articles from a remote API.
+- News articles are displayed as cards with images and content.
+- Users can clear all news articles with a single click.
+
+### Navigation:
+
+- The navigation bar allows users to log out.
+- Users are redirected to the login page upon logout.
+
+### Responsive Design:
+
+- The application is responsive and adapts to different screen sizes.
+
+## Tech Stack
+
+- React (Frontend)
+- Redux Toolkit (State Management)
+- Axios (HTTP Requests)
+- NewsAPI (News Data)
+- Material-UI (UI Components)
+
+
