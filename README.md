@@ -18,7 +18,7 @@ This is a React-based web application for browsing and exploring news articles. 
 ### Dark Mode:
 
 - Users can toggle between light and dark modes for a personalized viewing experience.
-
+ 
 ### News Browser:
 
 - The app fetches news articles from a remote API.
